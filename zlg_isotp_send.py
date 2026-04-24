@@ -18,7 +18,7 @@
 # Date   : 2026.04.17
 #
 # run command on Android:
-#     isotprecv -s 124 -d 123 -L 72:64:5 -l -p 55:55 can0
+#     isotprecv -s 123 -d 124 -L 72:64:5 -l -p 55:55 can0
 
 import sys
 import can
@@ -171,7 +171,7 @@ def main():
 
     try:
         bus = ZLG_20251230_Adapter(channel=0)
-        addr = isotp.Address(rxid=0x124, txid=0x123) 
+        addr = isotp.Address(rxid=0x123, txid=0x124)
 
         stack = isotp.CanStack(
             bus, 

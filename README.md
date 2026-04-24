@@ -81,7 +81,7 @@ python-can received msg_arbitration_id 291
 
 Run command on Android:
 ``` shell
-rk3588_s:/sdcard $isotprecv -s 124 -d 123 -L 72:64:5 -l -p 55:55 can0
+rk3588_s:/sdcard $isotprecv -s 123 -d 124 -L 72:64:5 -l -p 55:55 can0
 ```
 
 Run command on Windows PC:
